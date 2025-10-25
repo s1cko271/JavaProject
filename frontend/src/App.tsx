@@ -12,6 +12,8 @@ import BudgetManagementPage from './pages/BudgetManagementPage'
 import ExpenseAnalysisPage from './pages/ExpenseAnalysisPage'
 import ReportsPage from './pages/ReportsPage'
 import SettingsPage from './pages/SettingsPage'
+import ChatPage from './pages/ChatPage'
+import ChatWidget from './components/ChatWidget'
 
 // Tạo theme tùy chỉnh
 const theme = createTheme({
@@ -51,7 +53,9 @@ function App() {
           <Route path="/analysis" element={<ExpenseAnalysisPage />} />
           <Route path="/reports" element={<ReportsPage />} />
           <Route path="/settings" element={<SettingsPage />} />
+          <Route path="/chat" element={<ChatPage />} />
         </Routes>
+        <ChatWidget />
       </Router>
     </ThemeProvider>
   )
