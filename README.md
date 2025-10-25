@@ -160,7 +160,7 @@ Dự án này được phân phối dưới giấy phép MIT. Xem file `LICENSE`
 
 ## 👥 Đội ngũ phát triển
 
-**Nhóm 4 - Dự án Quản lý Tài chính Cá nhân**
+**Nhóm 14 - Dự án Quản lý Tài chính Cá nhân**
 
 - 🧑‍💻 **Frontend Developer** - React/TypeScript
 - 🎨 **UI/UX Designer** - Material Design
